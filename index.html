@@ -1,63 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="stylesheet" href="">
 </head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="col-12 col-sm-4 border border-danger">
+                <ul> 
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    <li>item 5</li>
+                </ul>
+            </nav>  
+            <div class="col-12 col-sm-8 border border-danger">
+                <h1>Titulo</h1>
+                <div class="row">
+                    <div class="col-6 col-sm-6 border border-danger">
+                        <h2>subtitulo</h2>
+                    </div>
+                    <div class="col-6 col-sm-6 border border-danger">
+                        <h2>subtitulo</h2>
+                    </div>
+                </div>
+                </div>      
+        </div>
+        <div class="row">
+            <article class="col-12 col-sm-12 col-md-12 col-lg-9 border border-danger">
+                <h1>Aqui van los article</h1>
+            </article>
+            <aside class="d-none d-sm-none s-md-none col-lg-3 d-lg-block border border-danger">
+                <div class="row">
+                    <h2>Follow Us</h2>
+                    
+                    <div class="row">
+                        <div class="card col-6">
+                            <div class="card-body bg-primary">
+                                <img src="face.png" alt=""> 
+                            </div>
+                        </div>
+                        <div class="card col-6">
+                            <div class="card-body bg-primary">
+                               <img src="twiter.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="card col-6">
+                                <div class="card-body bg-danger">
+                                    <img src="google.png" alt=""> 
+                                </div>
+                            </div>
+                            <div class="card col-6">
+                                <div class="card-body bg-peru">
+                                   <img src="rss.png" alt="">  
+                                </div>
+                            </div>
+                        </div>
+    
+                </div>
 
-<body> 
-
-    <div class="container col-8">
+            
+                        
+            </aside>
+        </div>
+        <div clss="row">
+            <footer class="col-12 border border-danger">
+                <h1>Aqui va el footer</h1>
+            </footer>
+        </div>
     </div>
-    <div class="container col-3 justify-content-center">
-        <h5>Follow Us</h5>
-        <div class="row">
-            <div class="col-6 bg-primary ">
-                <img src="face.png" alt="" class="mx-auto d-block">
-            </div>
-            <div class="col-6 bg-info">
-               <img src="twiter.png" alt="" class="mx-auto d-block">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6 bg-primary">
-                <a href="#" class="btn btn-info mx-auto d-block" role="button">Facebook</a>
-            </div>
-            <div class="col-6 bg-info">
-                <a href="#" class="btn btn-info" role="button">Twitteer</a>
-            </div>
-        </div>
-        <div class="row">
-                <div class="col-6 bg-danger">
-                    <img src="google.png" alt="">
-                </div>
-                <div class="col-6 bg-warning">
-                   <img src="rss.png" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6 bg-danger">
-                    <a href="#" class="btn btn-info" role="button">Google+</a>
-                </div>
-                <div class="col-6 bg-warning ">
-                    <a href="#" class="btn btn-info" role="button">Rss Feed</a>
-                </div>
-            </div>
-    </div> 
-</body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    
+    
 
+    <div class="container">
+       <div class="row">
+           <div class="col-12 col-sm-4 d-md-none d-lg-block col-lg-8 border border-danger">col 6</div>
+           <div class="col-3 col-sm-4 col-md-5 col-lg-2 border border-danger">col 3</div>
+           <div class="col-3 col-sm-4 col-md-5 col-lg-2 border border-danger">col 3</div>
+       </div>
+   </div>
+     
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
