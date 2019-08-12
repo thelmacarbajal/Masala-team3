@@ -6,8 +6,41 @@ header {
     font-size: 14px;
 }
 
+body {
+    background-color: #eeeeee;
+}
+
+#articles {
+    margin-top: 2%;
+}
+
 .nav {
     background: #242729;
+}
+
+.card-body p {
+    font-style: italic;
+    color: #ADADAD;
+    font-size: 13px;
+    font-family: 'open sans', arial, sans-serif;
+}
+
+.card-link {
+    color: #3396b9;
+    text-decoration: none;
+    -webkit-transition: all 0.6s ease-out 0s;
+    -moz-transition: all 0.6s ease-out 0s;
+    transition: all 0.6s ease-out 0s;
+    font-style: italic;
+    margin-left: inherit;
+}
+
+.card-link+.card-link {
+    margin-left: inherit;
+}
+
+.card-link:hover {
+    text-decoration: underline;
 }
 
 .navbar {
@@ -15,6 +48,7 @@ header {
     margin: 0 auto;
     padding: 30px 0px 25px;
     background: #242729;
+    font-size: .9em;
 }
 
 .img-responsive {
@@ -42,6 +76,102 @@ a .dropdown-item {
 
 span {
     color: #fff;
+}
+
+
+/*Títulos de los artículos*/
+
+h5 {
+    color: #333232;
+    font-size: 35px;
+    line-height: 1.1em;
+    font-family: 'open sans';
+    font-weight: 600;
+}
+
+h5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*Features Articles*/
+
+.categ {
+    cursor: pointer;
+    font-size: .6em;
+    position: absolute;
+    margin-top: -78%!important;
+}
+
+
+/*Categories Aside*/
+
+.titlecat {
+    color: #333232;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 20px 2px 25px 25px;
+    text-transform: uppercase;
+    background: url(http://2.bp.blogspot.com/-pdM2M4ONUaA/UwUEFvzCktI/AAAAAAAABNk/o5Lf07Qpd5w/s1600/title-bg.png) repeat-x bottom;
+}
+
+.one.list-group {
+    border-left: 5px solid #56ccee;
+}
+
+.two.list-group {
+    border-left: 5px solid #9aee56;
+}
+
+.list-group {
+    color: #555555;
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+
+/*Tutorials*/
+
+.tabs-tuts-left {
+    font-family: 'open sans';
+    font-size: 13px;
+    color: #3B96B9;
+    border-right: 1px grey solid;
+    padding-right: 10%;
+}
+
+.tabs-tuts-right {
+    font-family: 'open sans';
+    font-size: 13px;
+    color: #3B96B9;
+}
+
+
+/*PAGINATION*/
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    border-color: #062733;
+    background-color: #062733;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #3396b9;
+    color: #fff;
+    background-color: #3396b9;
+    border: none;
+    margin-right: 10px;
+    font-size: .8em;
 }
 
 
@@ -155,6 +285,79 @@ footer {
     background: #141618;
 }
 
+#imgarticle {
+    background: url(http://3.bp.blogspot.com/-bevY9Vwvg4g/Uyo5bZG2iiI/AAAAAAAABcc/Q2hhx6iQv4o/w250-h200-c/1.jpg);
+    /* padding: 100px 125px 100px 125px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#imgarticle-1 {
+    background: url(http://3.bp.blogspot.com/-bu27JjeSIkU/Uyo-sD5U-UI/AAAAAAAABcs/DF8l5-yyjcc/w250-h200-c/1.jpg);
+    /* padding: 100px 125px 100px 125px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#imgarticle-2 {
+    background: url(http://4.bp.blogspot.com/-qZOCvPMGHSg/Utvm1DBmrmI/AAAAAAAAB3g/EpYR45bv8a8/w250-h200-c/1.jpg
+);
+    /* padding: 100px 125px 100px 125px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#imgarticle-3 {
+    background: url(https://i.ytimg.com/vi/A-SKllekHpo/default.jpg);
+    /* padding: 100px 125px 100px 125px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#imgarticle-4 {
+    background: url(http://3.bp.blogspot.com/-7KkzmT8ORYw/UvcRcuR7iVI/AAAAAAAAA9Q/vvocolaayeg/w250-h200-c/1.jpg);
+    /* padding: 100px 125px 100px 125px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#imgarticle-5 {
+    background: url(http://3.bp.blogspot.com/-LksWLiGJUt4/UtvWeR5vQhI/AAAAAAAAB2c/fOUNGlOMM78/w250-h200-c/1.jpg);
+    /* padding: 100px 125px 100px 125px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#imgarticle-6 {
+    background: url(http://3.bp.blogspot.com/-HgGF-0FccVk/UtvGhZy21HI/AAAAAAAAB2M/WYWdNnUJxA8/w250-h200-c/1.jpg);
+    /* padding: 100px 125px 100px 125px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#imgarticle-7 {
+    background: url(http://3.bp.blogspot.com/-967vTssG3Lg/UypQY0AdFuI/AAAAAAAABdI/d0dGezG1aFc/w250-h200-c/1.jpg);
+    /* padding: 100px 125px 100px 125px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 
 /*Media Query*/
 
@@ -164,6 +367,70 @@ footer {
     }
     .collapse {
         font-size: 10px;
+    }
+    #imgarticle {
+        background: url(http://3.bp.blogspot.com/-bevY9Vwvg4g/Uyo5bZG2iiI/AAAAAAAABcc/Q2hhx6iQv4o/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: unset;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-1 {
+        background: url(http://3.bp.blogspot.com/-bu27JjeSIkU/Uyo-sD5U-UI/AAAAAAAABcs/DF8l5-yyjcc/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-2 {
+        background: url(http://4.bp.blogspot.com/-qZOCvPMGHSg/Utvm1DBmrmI/AAAAAAAAB3g/EpYR45bv8a8/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-3 {
+        background: url(https://i.ytimg.com/vi/A-SKllekHpo/default.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-4 {
+        background: url(http://3.bp.blogspot.com/-7KkzmT8ORYw/UvcRcuR7iVI/AAAAAAAAA9Q/vvocolaayeg/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-5 {
+        background: url(http://3.bp.blogspot.com/-LksWLiGJUt4/UtvWeR5vQhI/AAAAAAAAB2c/fOUNGlOMM78/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-6 {
+        background: url(http://3.bp.blogspot.com/-HgGF-0FccVk/UtvGhZy21HI/AAAAAAAAB2M/WYWdNnUJxA8/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-7 {
+        background: url(http://3.bp.blogspot.com/-967vTssG3Lg/UypQY0AdFuI/AAAAAAAABdI/d0dGezG1aFc/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 
@@ -181,9 +448,76 @@ footer {
         justify-content: space-between;
         text-align: justify;
     }
+    #imgarticle {
+        background: url(http://3.bp.blogspot.com/-bevY9Vwvg4g/Uyo5bZG2iiI/AAAAAAAABcc/Q2hhx6iQv4o/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+    #imgarticle-1 {
+        background: url(http://3.bp.blogspot.com/-bu27JjeSIkU/Uyo-sD5U-UI/AAAAAAAABcs/DF8l5-yyjcc/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-2 {
+        background: url(http://4.bp.blogspot.com/-qZOCvPMGHSg/Utvm1DBmrmI/AAAAAAAAB3g/EpYR45bv8a8/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-3 {
+        background: url(https://i.ytimg.com/vi/A-SKllekHpo/default.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-4 {
+        background: url(http://3.bp.blogspot.com/-7KkzmT8ORYw/UvcRcuR7iVI/AAAAAAAAA9Q/vvocolaayeg/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-5 {
+        background: url(http://3.bp.blogspot.com/-LksWLiGJUt4/UtvWeR5vQhI/AAAAAAAAB2c/fOUNGlOMM78/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-6 {
+        background: url(http://3.bp.blogspot.com/-HgGF-0FccVk/UtvGhZy21HI/AAAAAAAAB2M/WYWdNnUJxA8/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-7 {
+        background: url(http://3.bp.blogspot.com/-967vTssG3Lg/UypQY0AdFuI/AAAAAAAABdI/d0dGezG1aFc/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
+    h5 {
+        font-size: 20px;
+    }
     .popular-post {
         padding: 0px 0px;
     }
@@ -198,5 +532,77 @@ footer {
         margin-top: 20px;
         padding: 0px;
         justify-content: center;
+    }
+    #imgarticle {
+        background: url(http://3.bp.blogspot.com/-bevY9Vwvg4g/Uyo5bZG2iiI/AAAAAAAABcc/Q2hhx6iQv4o/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-1 {
+        background: url(http://3.bp.blogspot.com/-bu27JjeSIkU/Uyo-sD5U-UI/AAAAAAAABcs/DF8l5-yyjcc/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-2 {
+        background: url(http://4.bp.blogspot.com/-qZOCvPMGHSg/Utvm1DBmrmI/AAAAAAAAB3g/EpYR45bv8a8/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-3 {
+        background: url(https://i.ytimg.com/vi/A-SKllekHpo/default.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-4 {
+        background: url(http://3.bp.blogspot.com/-7KkzmT8ORYw/UvcRcuR7iVI/AAAAAAAAA9Q/vvocolaayeg/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-5 {
+        background: url(http://3.bp.blogspot.com/-LksWLiGJUt4/UtvWeR5vQhI/AAAAAAAAB2c/fOUNGlOMM78/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-6 {
+        background: url(http://3.bp.blogspot.com/-HgGF-0FccVk/UtvGhZy21HI/AAAAAAAAB2M/WYWdNnUJxA8/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #imgarticle-7 {
+        background: url(http://3.bp.blogspot.com/-967vTssG3Lg/UypQY0AdFuI/AAAAAAAABdI/d0dGezG1aFc/w250-h200-c/1.jpg);
+        /* padding: 100px 125px 100px 125px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        font-size: 11px;
     }
 }
